@@ -1,0 +1,19 @@
+ul li {
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    column-gap: 1rem;
+}
+a{
+    text-decoration: none; /* Remove sublinhado do link */
+    color: inherit;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 4em;
+}
+
+
