@@ -1,0 +1,37 @@
+.painel1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    column-gap: 4rem;
+}
+.banner{
+    width: 40vw;
+    height: 45vh;
+    border-radius: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+.container p{
+    margin-bottom: 3rem;
+}
+.social{
+    margin-top: 3rem;
+}
+.social ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.logosocial{
+    background-image: url(../assets/social.svg);
+    display: block;
+    width: 6vw;
+    height: 6vh;
+    background-repeat: no-repeat;
+    
+}
+.logosocial li{
+    width: 6vw;
+    height: 6vh;
+}

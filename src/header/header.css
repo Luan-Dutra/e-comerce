@@ -1,7 +1,7 @@
-ul li {
+.cabecalho .header ul li {
     list-style-type: none;
 }
-ul {
+.cabecalho .header ul {
     display: flex;
     column-gap: 1rem;
 }

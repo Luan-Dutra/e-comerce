@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root{
-  --color-primaria:white;
-  --color-secundaria:rgb(51, 51, 51);
+  --color-primaria: rgb(238, 238, 238);
+  --color-secundaria:rgb(221, 221, 221);
+  --color-terciaria: rgb(118, 136, 91,0.5);
+  --color-quarta: rgb(98, 114, 84)
 }
 
 .inter-uniquifier {
@@ -33,6 +35,11 @@ body{
 
  .cta{
     background-color: rgb(33, 33, 33);
-    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
     color: white;
+}
+
+.grade{
+  max-width: 80vw;
+  margin: 0 auto;
 }

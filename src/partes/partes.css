@@ -1,0 +1,89 @@
+section h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10rem 0 5rem 0;
+    padding-top: 10rem;
+}
+
+.beneficio {
+    background-color: var(--color-terciaria);
+}
+.conteiner-card{
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.card-beneficio{
+    width: 30VW;
+}
+
+.icon-beneficio{
+    width: 6vw;
+    height: 6vh;
+    border-radius: 50%;
+
+}
+.velocidade{
+    background-image: url(../assets/beneficio/velocidade-rapida.png);
+    background-repeat: no-repeat;
+}
+
+.qualidade{
+    background-image: url(../assets/beneficio/qualidade.png);
+    background-repeat: no-repeat;
+}
+
+.protecao{
+    background-image: url(../assets/beneficio/protecao.png);
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+.img-beneficio{
+    width: 40vw;
+    height: 45vh;
+    border-radius: 1rem;
+}
+.artigo{
+    display: flex;
+    justify-content:space-between;
+    padding: 10rem 0;
+}
+
+.descricao{
+    width: 40%;
+}
+.descricao ul li{
+    list-style-type: style type circle;
+    margin-bottom: 1rem;
+}
+.descricao h3{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 1rem 0;
+   
+}
+.descricao p{
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+/*
+   aki em a estilizaçção da parte de recomendações
+*/
+
+.depoimento-titulo{
+    text-align: center;
+    margin: 10rem 0 5rem 0;
+    font-size: 2rem;
+}
+.cardi{
+    display: flex;
+    column-gap: 2rem;
+}
